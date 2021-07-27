@@ -1,7 +1,4 @@
 from passlib.context import CryptContext
-# from passlib.utils import generate_password
-# from core.hashing.Has
-# from passlib.utils.decor import deprecated_function
 
 pwd_context = CryptContext(schemes=["bcrypt"],deprecated="auto")
 
